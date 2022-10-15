@@ -1,0 +1,14 @@
+#projectPageContainer{
+    position: relative;
+    color: #f5f5f5;
+    border: 1px white solid;
+    height: 98vh;
+    top: 25%;
+}
+
+  .live,
+  .coming,
+  .sources {
+    position: relative;
+    right: -46%;
+  }

@@ -1,0 +1,15 @@
+.navbarContainer{
+    background-color: transparent;
+    z-index: 1;
+    width:5vw;
+    position:fixed;
+    bottom:0;
+    border: 1px transparent solid;
+    padding: 1em;
+    margin:.5rem;
+    right:0%;
+}
+.navLinks{
+    display:flex;
+    justify-content: space-around;
+}
