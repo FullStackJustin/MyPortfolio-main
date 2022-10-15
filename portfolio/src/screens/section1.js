@@ -4,11 +4,8 @@ export function Screen1(){
 
     return (
         <div className="sectionContentContainer">
-            <div className="sectionContent">
-                <h1>screen 1 box 1</h1>
-            </div>
-            <div>
-                <h1>screen 2 box 2</h1>
+            <div className="sectionContent1">
+                <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a>
             </div>
         </div>
     )

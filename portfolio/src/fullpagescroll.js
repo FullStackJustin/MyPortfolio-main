@@ -1,19 +1,15 @@
 import "./styles/fullpage.css"
-import Fullpage, {FullPageSections, FullpageSection, FullpageNavigation} from "@ap.cx/react-fullpage"
+import Fullpage, {FullPageSections, FullpageSection} from "@ap.cx/react-fullpage"
 import {Screen1} from "../src/screens/section1"
 
 
 const FullPage = () => {
-    const first = "Justin";
-    const last = "Taylor";
 
     return (
+        
         <Fullpage>
-                <FullpageNavigation/>
             <FullPageSections>
                 <FullpageSection className="section">
-                {/* <span id="headerText">{first + " " + last}</span>
-                <a href="/projects"><button>Click Me</button></a> */}
                 <Screen1/>
                 </FullpageSection>
                 <FullpageSection className="section">

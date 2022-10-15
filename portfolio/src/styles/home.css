@@ -1,12 +1,5 @@
-/* #homePageContainer{
-}
-header{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(245,245,245);
-
-}
-h1{
-    
-} */
+.wrapper{
+    max-width: 1300px;
+    margin:auto;
+    border: 1px white dashed;
+  }
