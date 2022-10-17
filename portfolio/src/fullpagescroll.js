@@ -6,16 +6,15 @@ import {Screen1} from "../src/screens/section1"
 const FullPage = () => {
 
     return (
-        
         <Fullpage>
             <FullPageSections>
-                <FullpageSection className="section">
+                <FullpageSection className="fullPageSection">
                 <Screen1/>
                 </FullpageSection>
-                <FullpageSection className="section">
+                <FullpageSection>
                     <h1>screen 2</h1>
                 </FullpageSection>
-                <FullpageSection className="section">
+                <FullpageSection>
                     <h1>screen 3</h1>
                 </FullpageSection>
             </FullPageSections>

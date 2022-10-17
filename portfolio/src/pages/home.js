@@ -6,8 +6,6 @@ export const Home = () => {
 
 
     return (
-        <div className="wrapper">
-            <FullPage/>
-        </div>
+        <FullPage/>
     )
 }

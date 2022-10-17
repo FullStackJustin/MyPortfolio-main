@@ -8,8 +8,10 @@ import {Navbar } from './pages/navbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <div className="wrapper"> */}
     <Navbar />
     <App />
+    {/* </div> */}
   </React.StrictMode>
 );
 

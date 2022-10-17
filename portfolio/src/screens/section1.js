@@ -1,12 +1,24 @@
-import "../styles/sectionContent.css"
+import "../styles/section1.css"
 
-export function Screen1(){
+export function Screen1() {
 
     return (
-        <div className="sectionContentContainer">
-            <div className="sectionContent1">
-                <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a>
+        <div className="mainContentContainer">
+            <div className="leftContainer">
+                    <h1>J</h1>
+                <div className="verticalText">
+                    <h3>U</h3>
+                    <h3>S</h3>
+                    <h3>T</h3>
+                    <h3>I</h3>
+                    <h3>N</h3>
+                </div>
             </div>
+            <div className="rightContainer">
+                <h1>T</h1>
+            </div>
+            {/* Tropical trees font */}
+            {/* <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a> */}
         </div>
     )
 }
