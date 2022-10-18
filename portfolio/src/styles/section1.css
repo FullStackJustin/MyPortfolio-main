@@ -8,7 +8,11 @@
     src: local("Avenuex"),
     url("../fonts/Avenuex-75oB.otf") format("truetype");
 }
-
+@font-face{
+    font-family: "Kbluckyclover";
+    src: local("Kbluckyclover"), 
+    url("../fonts/Kbluckyclover-djAR.ttf") format("truetype");
+}
 
 
 .mainContentContainer{
@@ -45,44 +49,64 @@ background: linear-gradient(90deg, rgba(13,25,87,1) 0%, rgba(35,42,79,1) 32%, rg
     width:100%;
     height:100%;
 }
-.leftContainer h1{
-    color: white;
-    font-size: 3em;
-    position:absolute;
-    top:44.5%;
-    left:46%;
-    margin:0px;
-    padding:0px;
-}
 .rightContainer {
     text-align:left;
     display:flex;
     flex-direction: column;
-    font-family: "RosmatikaRegular";
     /* background-color: rgb(219, 219, 219); */
     background: rgb(219,219,219);
 background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 72%, rgba(219,219,219,1) 100%);
     width:100%;
     height:100%;
 }
+/* .leftContainer h1{
+    color: white;
+    font-size: 3em;
+    position:absolute;
+    top:45%;
+    left:46%;
+    margin:0px;
+    padding:0px;
+    font-family: Kbluckyclover;
+
+}
 .rightContainer h1{
+    font-family: Kbluckyclover;
     font-size: 3em;
     justify-content: flex-start;
     position:absolute;
     top:45%;
-    left:50%;
+    left:51%;
     margin:0px;
     padding:0px;
+} */
+.initials{
+    position:absolute;
+    top:30%;
+    display:flex;
+    justify-content: center;
+    left:44.5%;
+    font-size: 3em;
+    font-family: Kbluckyclover;
+    letter-spacing: 10px;
+}
+.initials .j{
+    color:white;
+    position: -webkit-sticky;
+        position: sticky;
+        top:0;
+        left:0;
+        
 }
 .rightContainer .horizontalText{
     display: flex;
     vertical-align: middle;
-    width: 35%;
+    width: 30%;
     justify-content: space-between;
     float:left;
     position: absolute;
     left: 58%;
-    top:43.5%;
+    top:42%;
     font-family: AvenueX;
 }
 .leftContainer .verticalText{
