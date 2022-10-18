@@ -1,3 +1,15 @@
+@font-face{
+    font-family: "RosmatikaRegular";
+    src: local("RosmatikaRegular"),
+    url("../fonts/RosmatikaRegular-BWA45.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Avenuex";
+    src: local("Avenuex"),
+    url("../fonts/Avenuex-75oB.otf") format("truetype");
+}
+
+
 
 .mainContentContainer{
     position:relative;
@@ -12,23 +24,11 @@
     z-index: 1;
     max-width: 87vw;
     width: 87vw;
-    max-height:85%;
+    max-height:85vh;
     height: 85vh;
     box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
 -webkit-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
 -moz-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
-}
-.leftContainer .verticalText{
-    position: relative;
-    top:40%;
-    flex-direction:column;
-    align-items: center;
-    color:white;
-    display:flex;
-    justify-content: space-between;
-    max-width: 32px;
-    width: auto;
-    height:50%;
 }
 .verticalText h3{
     display: table-cell;
@@ -38,22 +38,19 @@
     padding:0px;
     justify-content: flex-end;
 }
-@font-face{
-    font-family: "RosmatikaRegular";
-    src: local("RosmatikaRegular"),
-    url("../fonts/RosmatikaRegular-BWA45.ttf") format("truetype");
-}
 .leftContainer {
-    background-color: rgb(12, 25, 87);
+    /* background-color: rgb(12, 25, 87); */
+    background: rgb(13,25,87);
+background: linear-gradient(90deg, rgba(13,25,87,1) 0%, rgba(35,42,79,1) 32%, rgba(13,25,87,0.9752275910364145) 100%);
     width:100%;
     height:100%;
 }
 .leftContainer h1{
     color: white;
-    font-size: 36px;
-    position:relative;
-    top:40%;
-    left:92%;
+    font-size: 3em;
+    position:absolute;
+    top:44.5%;
+    left:46%;
     margin:0px;
     padding:0px;
 }
@@ -62,14 +59,44 @@
     display:flex;
     flex-direction: column;
     font-family: "RosmatikaRegular";
-    background-color: rgb(219, 219, 219);
+    /* background-color: rgb(219, 219, 219); */
+    background: rgb(219,219,219);
+background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 72%, rgba(219,219,219,1) 100%);
     width:100%;
     height:100%;
 }
 .rightContainer h1{
-    font-size: 36px;
+    font-size: 3em;
     justify-content: flex-start;
-    position:relative;
-    top:40%;
-    left:0%
+    position:absolute;
+    top:45%;
+    left:50%;
+    margin:0px;
+    padding:0px;
+}
+.rightContainer .horizontalText{
+    display: flex;
+    vertical-align: middle;
+    width: 35%;
+    justify-content: space-between;
+    float:left;
+    position: absolute;
+    left: 58%;
+    top:43.5%;
+    font-family: AvenueX;
+}
+.leftContainer .verticalText{
+    font-size:1em;
+    font-family: Avenuex;
+    position: absolute;
+    top:58%;
+    left:45.5%;
+    flex-direction:column;
+    align-items: center;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    max-width: 32px;
+    width: 40%;
+    height:40%;
 }

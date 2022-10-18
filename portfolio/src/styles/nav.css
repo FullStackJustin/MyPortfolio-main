@@ -1,15 +1,19 @@
 .navbarContainer{
     background-color: transparent;
     z-index: 1;
-    width:5vw;
+    width:3.5vw;
+    height:10vh;
     position:fixed;
-    bottom:0;
+    top:45%;
     border: 1px transparent solid;
-    padding: 1em;
-    margin:.5rem;
+    padding: 0px;
+    margin: 0px;
     right:0%;
 }
 .navLinks{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: column;
+    margin:0px;
+    padding: 0px;
 }

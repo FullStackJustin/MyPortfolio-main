@@ -16,6 +16,13 @@ export function Screen1() {
             </div>
             <div className="rightContainer">
                 <h1>T</h1>
+                <div className="horizontalText">
+                    <h3>A</h3>
+                    <h3>Y</h3>
+                    <h3>L</h3>
+                    <h3>O</h3>
+                    <h3>R</h3>
+                </div>
             </div>
             {/* Tropical trees font */}
             {/* <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a> */}
