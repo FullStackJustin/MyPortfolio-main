@@ -26,7 +26,6 @@ export function Screen1() {
                     <h3>R</h3>
                 </div>
             </div>
-            
             {/* Tropical trees font */}
             {/* <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a> */}
         </div>

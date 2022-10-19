@@ -17,19 +17,18 @@
 
 .mainContentContainer{
     position:relative;
-    height:100%;
-    width:100%;
     display:flex;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top: 5%;
-    z-index: 1;
+    z-index: 100;
     max-width: 87vw;
     width: 87vw;
     max-height:85vh;
     height: 85vh;
+    border-radius: 5px;
     box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
 -webkit-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
 -moz-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
@@ -82,16 +81,20 @@ background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 7
 } */
 .initials{
     position:absolute;
+    left:44.5%;
     top:30%;
     display:flex;
+    align-items:center;
     justify-content: center;
-    left:44.5%;
     font-size: 3em;
     font-family: Kbluckyclover;
     letter-spacing: 10px;
+    margin:0px;
+    padding-left: 2px;
+    z-index:100;
 }
 .initials .j{
-    color:white;
+    color: rgb(228, 228, 228);
     position: -webkit-sticky;
         position: sticky;
         top:0;
@@ -117,7 +120,7 @@ background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 7
     left:45.5%;
     flex-direction:column;
     align-items: center;
-    color:white;
+    color: rgb(228, 228, 228);
     display:flex;
     justify-content: space-between;
     max-width: 32px;

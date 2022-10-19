@@ -2,7 +2,9 @@
     background-color: transparent;
     z-index: 1;
     width:3.5vw;
+    max-width:3.5vw;
     height:10vh;
+    max-height:10vh;
     position:fixed;
     top:45%;
     border: 1px transparent solid;
@@ -17,3 +19,4 @@
     margin:0px;
     padding: 0px;
 }
+  

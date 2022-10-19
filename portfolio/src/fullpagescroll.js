@@ -1,6 +1,7 @@
 import "./styles/fullpage.css"
 import Fullpage, {FullPageSections, FullpageSection} from "@ap.cx/react-fullpage"
 import {Screen1} from "../src/screens/section1"
+import {Screen2} from "../src/screens/section2"
 
 
 const FullPage = () => {
@@ -12,7 +13,7 @@ const FullPage = () => {
                 <Screen1/>
                 </FullpageSection>
                 <FullpageSection>
-                    <h1>screen 2</h1>
+                    <Screen2/>
                 </FullpageSection>
                 <FullpageSection>
                     <h1>screen 3</h1>
