@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './App';
 import {Navbar } from './pages/navbar';
+import {Logo } from './pages/logo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <div className="wrapper"> */}
     <Navbar />
     <App />
-    {/* </div> */}
+    <Logo/>
   </React.StrictMode>
 );
 

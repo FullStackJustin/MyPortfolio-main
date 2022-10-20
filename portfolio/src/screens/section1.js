@@ -3,11 +3,9 @@ import "../styles/section1.css"
 export function Screen1() {
 
     return (
+        <div className="fullPageContainer">
         <div className="mainContentContainer">
-            <div className="initials">
-                <h1 className="j">J</h1>
-                <h1>T</h1>
-            </div>
+            <h5>(Full-Stack Web Developer)</h5>
             <div className="leftContainer">
                 <div className="verticalText">
                     <h3>U</h3>
@@ -28,6 +26,7 @@ export function Screen1() {
             </div>
             {/* Tropical trees font */}
             {/* <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a> */}
+        </div>
         </div>
     )
 }

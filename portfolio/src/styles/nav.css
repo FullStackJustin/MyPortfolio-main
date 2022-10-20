@@ -19,4 +19,12 @@
     margin:0px;
     padding: 0px;
 }
-  
+.navLinks a:link,
+.navLinks a:visited,
+.navLinks a:focus,
+.navLinks a:hover{
+    color:#0D1957;
+}
+.navLinks a:active{
+    color:grey;
+}

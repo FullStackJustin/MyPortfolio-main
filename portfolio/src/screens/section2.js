@@ -5,6 +5,15 @@ export const Screen2 = () => {
 
 
     return(
-        <h1>screen 2</h1>
+        <div className="fullPageContainer">
+            <div className="header">
+                <span id="headerText">FULLSTACKJUSTIN</span>
+            </div>
+            <div className="sectionContent">
+                <div id="leftCard" className="column"><h1>column1</h1></div>
+                <div id="middleCard" className="column"><h1>column1</h1></div>
+                <div id="rightCard" className="column"><h1>column1</h1></div>
+            </div>
+        </div>
     )
 }
