@@ -1,9 +1,8 @@
 .initials{
-    z-index: 1000;
-    position: -webkit-sticky;
-        position: sticky;
-        top:0;
-        left:0;
+    z-index: 100;
+    position: absolute;
+    top:10%;
+    right:10%;
     display:flex;
     align-items:center;
     justify-content: center;

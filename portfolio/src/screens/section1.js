@@ -2,6 +2,8 @@ import "../styles/section1.css"
 
 export function Screen1() {
 
+
+
     return (
         <div className="fullPageContainer">
         <div className="mainContentContainer">
