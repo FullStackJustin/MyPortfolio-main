@@ -2,11 +2,40 @@ import "../styles/section1.css"
 
 export function Screen1() {
 
-
+    
+    function fadeOutOnScroll(element) {
+        if (!element) {
+        console.log(element, "no element")
+        return;
+      }
+      
+      var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
+      var elementHeight = element.offsetHeight;
+      var scrollTop = document.documentElement.scrollTop;
+      console.log(element, distanceToTop, elementHeight, scrollTop);
+      
+      var opacity = 1;
+      
+      if (scrollTop > distanceToTop) {
+          opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
+        }
+        
+        if (opacity >= 0) {
+            element.style.opacity = opacity;
+        }
+    }
+    var contentContainer = document.getElementById('contentContainer');
+    
+    function scrollHandler() {
+      fadeOutOnScroll(contentContainer);
+    }
+    
+    window.addEventListener('scroll', scrollHandler);
+    
 
     return (
-        <div className="fullPageContainer">
-        <div className="mainContentContainer">
+        <div className="fullpageContainer" id="fullpageContainer"> 
+        <div className="mainContentContainer" id="contentContainer">
             <h5>(Full-Stack Web Developer)</h5>
             <div className="leftContainer">
                 <div className="verticalText">

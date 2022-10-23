@@ -19,20 +19,23 @@
     url("../fonts/HouseSignatureSans-Yz0Vj.ttf") format("truetype");
 }
 
-
+.fullpageContainer{
+    position:relative;
+    height:100vh;
+}
 .mainContentContainer{
     position:relative;
     display:flex;
     margin-left: auto;
     margin-right: auto;
     top: 5%;
-    z-index: 100;
+    z-index: 98;
     max-width: 87vw;
     width: 87vw;
     max-height:85vh;
     height: 85vh;
-    border:.5px solid transparent;
-    border-radius: 5px;
+    border:none;
+    border-radius: 20px;
     box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
 -webkit-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
 -moz-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
@@ -45,7 +48,6 @@
     text-decoration: underline;
     color: #0D1957;
     font-family: "HouseSignatureSans";
-    font-weight: bolder;
 }
 .verticalText h3{
     display: table-cell;
@@ -57,12 +59,14 @@
 }
 .leftContainer {
     /* background-color: rgb(12, 25, 87); */
+    border-radius: 20px 0px 0px 20px; 
     background: rgb(13,25,87);
 background: linear-gradient(90deg, rgba(13,25,87,1) 0%, rgba(35,42,79,1) 32%, rgba(13,25,87,0.9752275910364145) 100%);
     width:100%;
     height:100%;
 }
 .rightContainer {
+    border-radius: 0px 20px 20px 0px; 
     text-align:left;
     display:flex;
     flex-direction: column;

@@ -1,3 +1,8 @@
+.navFullPage{
+    height:300vh;
+    width:100vw;
+    position: absolute;
+}
 .navbarContainer{
     background-color: transparent;
     z-index: 1;
