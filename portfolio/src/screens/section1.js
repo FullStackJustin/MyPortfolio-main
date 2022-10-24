@@ -12,7 +12,7 @@ export function Screen1() {
       var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
       var elementHeight = element.offsetHeight;
       var scrollTop = document.documentElement.scrollTop;
-      console.log(element, distanceToTop, elementHeight, scrollTop);
+      console.log(distanceToTop, elementHeight, scrollTop);
       
       var opacity = 1;
       
@@ -24,9 +24,9 @@ export function Screen1() {
             element.style.opacity = opacity;
         }
     }
-    var contentContainer = document.getElementById('contentContainer');
     
     function scrollHandler() {
+        var contentContainer = document.getElementById('contentContainer');
       fadeOutOnScroll(contentContainer);
     }
     

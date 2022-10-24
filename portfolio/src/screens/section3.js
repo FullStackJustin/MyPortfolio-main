@@ -2,10 +2,11 @@ import "../styles/section3.css"
 
 export const Screen3 = () => {
 
-
-
+    
+    
+    
     return(
-        <div className="fullPageContainer">
+        <div className="fullPageContainer" id="contactPageContainer">
             <div className="contactPageContainer">
                 <div className="contactCard">
                     <form>
