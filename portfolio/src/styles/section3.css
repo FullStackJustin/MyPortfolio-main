@@ -29,3 +29,7 @@ form header{
     left:43%;
     text-align: center;
 }
+form main input{
+    margin: 0 auto;
+    
+}

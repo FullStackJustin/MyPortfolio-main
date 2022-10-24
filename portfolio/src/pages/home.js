@@ -10,7 +10,7 @@ export const Home = () => {
 
     return (
         <div id="fullpageSection" className="fullPageSection">
-        <div id="section" className="section">
+        <div id="section"  className="section">
             <Screen1/>
         </div>
         <div id="middleSection" className="section">
@@ -20,6 +20,5 @@ export const Home = () => {
             <Screen3/>
         </div>
     </div>
-        // <FullPage/>
     )
 }
