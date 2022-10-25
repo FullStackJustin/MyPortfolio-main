@@ -29,7 +29,13 @@ form header{
     left:43%;
     text-align: center;
 }
-form main input{
-    margin: 0 auto;
-    
+.messageInput {
+    height:30vh;
+    width: 10%;
+}
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
