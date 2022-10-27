@@ -10,7 +10,6 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <App />
-
   </React.StrictMode>
 );
 

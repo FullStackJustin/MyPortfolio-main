@@ -30,9 +30,9 @@
     margin-right: auto;
     top: 5%;
     z-index: 98;
-    max-width: 87vw;
+    max-width: 1080px;
     width: 87vw;
-    max-height:85vh;
+    max-height:1920px;
     height: 85vh;
     border:none;
     border-radius: 20px;

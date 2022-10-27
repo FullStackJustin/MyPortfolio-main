@@ -1,0 +1,41 @@
+.navContainer{
+    margin: 20px;
+    margin-top:150px;
+    background-color: transparent;
+    height: 1vh;
+    max-height: 1vh;
+    align-items: center;
+    position: relative;
+    bottom:0%;
+}
+.navContainer.aos-init.aos-animate{
+    padding-bottom: 150px;
+    margin-top: 50px;
+    padding:0px;
+}
+nav{
+    position:relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
+    text-align: center;
+}
+nav a{
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 10%;
+    max-width: 10%;
+    height: 100%;
+    max-height: 100%;
+}
+.footerContainer{
+    position: relative;
+    z-index: 95;
+    margin: 0 auto;
+    height: 5vh;
+    max-height: 5vh;
+    width: 70vw;
+    max-width: 70vw;
+}
