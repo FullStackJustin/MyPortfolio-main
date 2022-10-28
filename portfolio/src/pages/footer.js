@@ -13,7 +13,7 @@ export const Footer = () => {
 
     return (
         <div  className="footerContainer">
-            <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="navContainer">
+            <div data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="navContainer">
                 <nav>
                     <a href="/" className='footerLink1'>Link 1</a>
                     <a href="/" className='footerLink2'> Link 2</a>

@@ -1,6 +1,6 @@
 .navContainer{
-    margin: 20px;
-    margin-top:150px;
+    margin-top:0px;
+    margin-bottom:50px;
     background-color: transparent;
     height: 1vh;
     max-height: 1vh;
@@ -9,13 +9,12 @@
     bottom:0%;
 }
 .navContainer.aos-init.aos-animate{
-    padding-bottom: 150px;
-    margin-top: 50px;
+    margin-top: 0px;
     padding:0px;
 }
 nav{
     position:relative;
-    top: 15vh;
+    top: 8vh;
     display: flex;
     flex-direction: row;
     align-items: center;

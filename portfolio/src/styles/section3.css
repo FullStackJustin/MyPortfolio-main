@@ -1,8 +1,5 @@
 .contacCard{
     position:absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width:65%;
     max-width:65%;
     height: 70%;
@@ -29,14 +26,24 @@ form header{
     left:43%;
     padding-left: 15px;
 }
-#form{
+#contactForm{
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 25px;
+    height: 65vh;
+    max-height: 65vh;
+    width: 50vw;
+    max-width: 50vw;
     border-radius: 15px;
     box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
--webkit-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
--moz-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
-background-color: rgb(232, 232, 232);
+    -webkit-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
+    -moz-box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
+    background-color: rgb(232, 232, 232);
+    border: 1px solid black;
 }
 #emailInput{
     max-height: 5vh;

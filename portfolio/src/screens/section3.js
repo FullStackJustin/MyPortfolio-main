@@ -6,9 +6,9 @@ import emailjs from '@emailjs/browser';
 export const Screen3 = () => {
 
     const form = React.useRef();
-    const serviceID = process.env.REACT_APP_SERVICE_ID;
-    const templateID = process.env.REACT_APP_TEMPLATE_ID;
-    const publicKey = process.env.REACT_APP_accessToken;
+    const serviceID = "service_le4z3eg";
+    const templateID = "template_zm6ukw6";
+    const publicKey = "6BnWXtAJp9KujfoUQ";
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -19,7 +19,8 @@ export const Screen3 = () => {
           }, (error) => {
               console.log(error);
           });
-      };
+          e.target.reset();
+    };
     
     
     
@@ -29,17 +30,21 @@ export const Screen3 = () => {
                 <form id="contactForm" ref={form} onSubmit={sendEmail}>
                     <header><h3>Contact Me</h3></header>
                     <main>
+                        {/* <label>Enter Your Name</label>
+                        <input id="nameInput" name="from_name" type="text" placeholder="Type your name"></input> */}
                         <label>Enter Your Email</label>
-                        <input id="emailInput" type="email" placeholder="Type your email"></input>
-                        <br></br>
-                        <br></br>
+                        <input id="emailInput" name="email" type="email" placeholder="Type your email"></input>
+                        {/* <label>Subject</label>
+                        <input id="subjectInput" name="subject" type="text" placeholder="Subject"/> */}
+                        <br/>
+                        <br/>
                         <label>Leave me a Message</label>
-                        <input id="messageInput" placeholder="Type a comment, Question, or Message"></input>
+                        <input id="messageInput" name="message" placeholder="Type a comment, Question, or Message"></input>
                     </main>
                     <button type="submit">Send Message</button>
                 </form>
-            </div>
             <Footer/>
+            </div>
         </div>
     )
 }
