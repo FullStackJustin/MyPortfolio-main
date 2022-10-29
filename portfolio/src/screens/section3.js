@@ -27,16 +27,14 @@ export const Screen3 = () => {
     return(
         <div id="contactPageContainer">
             <div className="contactCard">
-                <form id="contactForm" ref={form} onSubmit={sendEmail}>
                     <header><h3>Contact Me</h3></header>
+                <form id="contactForm" ref={form} onSubmit={sendEmail}>
                     <main>
-                        {/* <label>Enter Your Name</label>
-                        <input id="nameInput" name="from_name" type="text" placeholder="Type your name"></input> */}
-                        <label>Enter Your Email</label>
-                        <input id="emailInput" name="email" type="email" placeholder="Type your email"></input>
-                        {/* <label>Subject</label>
-                        <input id="subjectInput" name="subject" type="text" placeholder="Subject"/> */}
+                        <label>Enter Your Name</label>
+                        <input id="nameInput" name="from_name" type="text" placeholder="Type your name"></input>
                         <br/>
+                        <label>Enter Your Email</label>
+                        <input id="emailInput" name="from_email" type="email" placeholder="Type your email"></input>
                         <br/>
                         <label>Leave me a Message</label>
                         <input id="messageInput" name="message" placeholder="Type a comment, Question, or Message"></input>

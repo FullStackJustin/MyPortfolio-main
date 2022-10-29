@@ -17,10 +17,9 @@ export const Screen2 = () => {
             </div>
             <div  className="sectionContent" id="sectionContent">
                 <div id="leftCard" className="column">
-                    <form className="projectsForm">
                         <header><h1>Projects</h1></header>
+                    <form className="projectsForm">
                         <main>
-                            <br />
                             <div className="dropdown">
                                 <button className="dropbtn">Calculator</button>
                                 <div  className="dropdown-content">

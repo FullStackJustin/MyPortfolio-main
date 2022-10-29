@@ -1,6 +1,5 @@
 .navContainer{
     margin-top:0px;
-    margin-bottom:50px;
     background-color: transparent;
     height: 1vh;
     max-height: 1vh;
@@ -14,7 +13,8 @@
 }
 nav{
     position:relative;
-    top: 8vh;
+    top: 2vh;
+    padding-bottom: 2vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,6 +35,6 @@ nav a{
     margin: 0 auto;
     height: 5vh;
     max-height: 5vh;
-    width: 70vw;
-    max-width: 70vw;
+    width: 66vw;
+    max-width: 66vw;
 }
