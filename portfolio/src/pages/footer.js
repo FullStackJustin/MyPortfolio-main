@@ -15,9 +15,9 @@ export const Footer = () => {
         <div  className="footerContainer">
             <div data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="navContainer">
                 <nav>
-                    <a href="/" className='footerLink1'>Link 1</a>
-                    <a href="/" className='footerLink2'> Link 2</a>
-                    <a href="/" className='footerLink3'> Link 3</a>
+                    <a href="/projects" id='footerLink1' className="footerLinks">Link 1</a>
+                    <a href="/" id='footerLink2'> Link 2</a>
+                    <a href="/" id='footerLink3'> Link 3</a>
                 </nav>
             </div>
         </div>

@@ -35,6 +35,7 @@
     max-width: 100vw;
   }
 #leftCard{
+    z-index:101;
     position:absolute;
     top:5%;
     left:5%;
@@ -42,6 +43,7 @@
     margin-right:25px;
 }
 #middleCard{
+    z-index:101;
     position:absolute;
     top:5%;
     left:35%;
@@ -49,6 +51,7 @@
     margin-right:25px;
 }
 #rightCard{
+    z-index:101;
     position:absolute;
     top:5%;
     left: 65%;
@@ -110,7 +113,7 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #51515184}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -119,7 +122,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #ffffff;
+    background-color: #b7b6b684;
 }
 @font-face {
     font-family: "SuperThin";

@@ -6,7 +6,7 @@ export const Projects = () => {
 
 
     return (
-        <div id="projectPageContainer">
+        <div id="projectPageContainer" style={{backgroundColor: "grey"}}>
             <div className="live">
                 <h4>Live Sites</h4>
                 <img alt="project img"></img>

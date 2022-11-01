@@ -10,6 +10,7 @@
 .navContainer.aos-init.aos-animate{
     margin-top: 0px;
     padding:0px;
+    
 }
 nav{
     position:relative;
@@ -30,8 +31,8 @@ nav a{
     max-height: 100%;
 }
 .footerContainer{
+    z-index: 50;
     position: relative;
-    z-index: 95;
     margin: 0 auto;
     height: 5vh;
     max-height: 5vh;

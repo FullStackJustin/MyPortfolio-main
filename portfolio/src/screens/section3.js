@@ -4,7 +4,7 @@ import { Footer } from "../pages/footer"
 import emailjs from '@emailjs/browser';
 
 export const Screen3 = () => {
-
+    // const [test, setTest] = React.useState("");
     const form = React.useRef();
     const serviceID = "service_le4z3eg";
     const templateID = "template_zm6ukw6";
@@ -12,16 +12,26 @@ export const Screen3 = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
+        
+        
         emailjs.sendForm(serviceID, templateID, form.current, publicKey)
-          .then((result) => {
+        .then((result) => {
               console.log(result.text);
-          }, (error) => {
-              console.log(error);
-          });
-          e.target.reset();
-    };
-    
+            }, (error) => {
+                console.log(error);
+            })
+            e.target.reset();
+        };
+        const formCompletionValidation = () => {
+            const userEmailInput = document.getElementById("emailInput");
+            for(let e = 0; e < userEmailInput.length; e++){
+                console.log(e)
+                if ( e <= 0 ){
+                    userEmailInput.style.display="hidden";
+                } else { console.log("User is typing")}
+            }
+        }
+        
     
     
     return(
@@ -39,7 +49,7 @@ export const Screen3 = () => {
                         <label>Leave me a Message</label>
                         <input id="messageInput" name="message" placeholder="Type a comment, Question, or Message"></input>
                     </main>
-                    <button type="submit">Send Message</button>
+                    <button onClick={formCompletionValidation} type="submit">Send Message</button>
                 </form>
             <Footer/>
             </div>
