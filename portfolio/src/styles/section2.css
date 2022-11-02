@@ -1,11 +1,13 @@
 #headerText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
     position: relative;
     z-index: 101;
     top: 1em; 
     left:36%;
     transform: translate(50%,-50%);
     text-transform: uppercase;
-    font-family: verdana;
+    /* font-family: verdana; */
     font-size: 2em;
     font-weight: 700;
     color: #01082c;
@@ -58,7 +60,11 @@
     margin-left: 25px;
     margin-right:25px;
 }
+.column header{
+    font-family: superthin;
+}
 .column{
+    
     display:flex;
     flex-direction: column;
     margin-top: 5%;

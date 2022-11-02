@@ -7,6 +7,8 @@ import {Home} from "./pages/home";
 
 function App() {
   return (
+    <>
+    <Home/>
     <Router>      
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
@@ -14,6 +16,7 @@ function App() {
         {/* <Route exact path="/" element={</>}></Route> */}
       </Routes>
     </Router>
+    </>
   );
 }
 
