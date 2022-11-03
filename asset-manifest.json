@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MYPORTFOLIO-MAIN/static/css/main.6ee9d951.css",
-    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.318d5fbf.js",
+    "main.css": "/MYPORTFOLIO-MAIN/static/css/main.856e154f.css",
+    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.d1264c11.js",
     "static/media/RosmatikaRegular-BWA45.ttf": "/MYPORTFOLIO-MAIN/static/media/RosmatikaRegular-BWA45.f7b5935032bdf59f2734.ttf",
     "static/media/Kbluckyclover-djAR.ttf": "/MYPORTFOLIO-MAIN/static/media/Kbluckyclover-djAR.0de8decb9c070ead1d63.ttf",
     "static/media/Thin-DdE3.ttf": "/MYPORTFOLIO-MAIN/static/media/Thin-DdE3.460fcb23e127f400e51f.ttf",
@@ -9,11 +9,11 @@
     "static/media/SuperThin-eZVDe.ttf": "/MYPORTFOLIO-MAIN/static/media/SuperThin-eZVDe.656233b16696c4c2cf13.ttf",
     "static/media/HouseSignatureSans-Yz0Vj.ttf": "/MYPORTFOLIO-MAIN/static/media/HouseSignatureSans-Yz0Vj.bcf62b5c4a13008af020.ttf",
     "index.html": "/MYPORTFOLIO-MAIN/index.html",
-    "main.6ee9d951.css.map": "/MYPORTFOLIO-MAIN/static/css/main.6ee9d951.css.map",
-    "main.318d5fbf.js.map": "/MYPORTFOLIO-MAIN/static/js/main.318d5fbf.js.map"
+    "main.856e154f.css.map": "/MYPORTFOLIO-MAIN/static/css/main.856e154f.css.map",
+    "main.d1264c11.js.map": "/MYPORTFOLIO-MAIN/static/js/main.d1264c11.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ee9d951.css",
-    "static/js/main.318d5fbf.js"
+    "static/css/main.856e154f.css",
+    "static/js/main.d1264c11.js"
   ]
 }
