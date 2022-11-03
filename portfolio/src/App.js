@@ -7,16 +7,14 @@ import {Home} from "./pages/home";
 
 function App() {
   return (
-    <>
-    <Home/>
-    <Router>      
+
+    <Router basename="/MYPORTFOLIO-MAIN">      
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/projects" element={<Projects />}></Route>
         {/* <Route exact path="/" element={</>}></Route> */}
       </Routes>
     </Router>
-    </>
   );
 }
 
