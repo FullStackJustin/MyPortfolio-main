@@ -4,20 +4,22 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from "./pages/home";
 import { Projects } from "./pages/projects";
 // import {Footer} from "./pages/footer.js";
+import {Navbar} from "./pages/navbar.js";
 
 
 function App() {
   const logo = document.getElementById("preloadLogo");
   const [loading, setLoading] = React.useState(true);
   if (logo) {
-    setTimeout(() => {
-      logo.style.display = "none";
-      setLoading(false);
-    }, 2000)
+      setTimeout(() => {
+        logo.style.display = "none";
+        setLoading(false);
+      }, 2000)
   }
   return (
     !loading && (
       <Router basename="/">
+        <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/MYPORTFOLIO-MAIN" element={<Home />}></Route>

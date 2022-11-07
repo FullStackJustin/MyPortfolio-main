@@ -4,11 +4,12 @@
     position: relative;
     z-index: 101;
     top: 1em; 
-    left:34%;
+    margin: auto;
     transform: translate(50%,-50%);
     text-transform: uppercase;
     /* font-family: verdana; */
     font-size: 2em;
+    background-color: #D9DDFC;
     font-weight: 700;
     color: #01082c;
     text-shadow: 1px 1px 1px rgb(193, 191, 191),

@@ -16,20 +16,33 @@
     -->
     
     <title>FullStackJustin</title>
-    <link href="../src/styles/indexHtml.css" rel="stylesheet"/>
+    <link href="./indexHtml.css" rel="stylesheet"/>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-      <div id="preloadLogo" className="preloadContainer">
-        <div id="preloadLogoDiv">
-          <span className="gif"><img id="logoImg" src="../src/imgs/jtLogo.gif" /></span>
-        </div>
+      
+    <div id="preloadLogo" >
+      <div>
+        <h1 className="rootLogo">JT</h1>
       </div>
-      <div id="root"></div>
+    </div>
+      <div id="root">
+      </div>
     <script src="https://kit.fontawesome.com/532a0da25d.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <style>
+      #preloadLogo{
+        font-family:Kbluckyclover;
+        font-size: 3rem;
+      margin: "auto";
+      display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 80vh;
+      }
+    </style>
   </body>
 </html>

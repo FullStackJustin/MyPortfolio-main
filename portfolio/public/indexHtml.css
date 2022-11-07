@@ -1,0 +1,12 @@
+.rootLogo{
+    animation: blinker 1s step-end infinite;
+}
+@keyframes blinker {
+  10%{
+    opacity: 10;
+
+  }
+  50% {
+    opacity: 0;
+  }
+}
