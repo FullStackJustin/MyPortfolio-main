@@ -13,9 +13,9 @@ export const Screen2 = () => {
 
     return (
         <div className="fullPageContainer">
-            <div className="header">
+            {/* <div className="header">
                 <span id="headerText">FULLSTACKJUSTIN</span>
-            </div>
+            </div> */}
             <div  className="sectionContent" id="sectionContent">
                 <div id="leftCard" className="column">
                         <header><h1>Projects</h1></header>
