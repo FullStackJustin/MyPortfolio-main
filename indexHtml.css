@@ -1,12 +1,18 @@
-.rootLogo{
-    animation: blinker 1s step-end infinite;
+#preloadLogo{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
 }
-@keyframes blinker {
-  10%{
-    opacity: 10;
+#logoInsert{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 100vh;
+  margin:auto;
+}
+#logoInsert .animate__flipInX{
 
-  }
-  50% {
-    opacity: 0;
-  }
+  color: rgb(13,25,87);
 }

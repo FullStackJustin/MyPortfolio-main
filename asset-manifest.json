@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/MYPORTFOLIO-MAIN/static/css/main.512ac504.css",
-    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.0c8e908a.js",
+    "main.css": "/MYPORTFOLIO-MAIN/static/css/main.e3ef7421.css",
+    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.0f49ba1b.js",
     "static/media/RosmatikaRegular-BWA45.ttf": "/MYPORTFOLIO-MAIN/static/media/RosmatikaRegular-BWA45.f7b5935032bdf59f2734.ttf",
     "static/media/Kbluckyclover-djAR.ttf": "/MYPORTFOLIO-MAIN/static/media/Kbluckyclover-djAR.0de8decb9c070ead1d63.ttf",
+    "static/media/lightbulbLogo.png": "/MYPORTFOLIO-MAIN/static/media/lightbulbLogo.9926afda780608f91457.png",
     "static/media/Thin-DdE3.ttf": "/MYPORTFOLIO-MAIN/static/media/Thin-DdE3.460fcb23e127f400e51f.ttf",
     "static/media/Avenuex-75oB.otf": "/MYPORTFOLIO-MAIN/static/media/Avenuex-75oB.46179a851de4ad9ce3fc.otf",
+    "static/media/workAndEduLogo.png": "/MYPORTFOLIO-MAIN/static/media/workAndEduLogo.8da99097baa49b7710ee.png",
     "static/media/SuperThin-eZVDe.ttf": "/MYPORTFOLIO-MAIN/static/media/SuperThin-eZVDe.656233b16696c4c2cf13.ttf",
     "static/media/HouseSignatureSans-Yz0Vj.ttf": "/MYPORTFOLIO-MAIN/static/media/HouseSignatureSans-Yz0Vj.bcf62b5c4a13008af020.ttf",
     "index.html": "/MYPORTFOLIO-MAIN/index.html",
-    "main.512ac504.css.map": "/MYPORTFOLIO-MAIN/static/css/main.512ac504.css.map",
-    "main.0c8e908a.js.map": "/MYPORTFOLIO-MAIN/static/js/main.0c8e908a.js.map"
+    "main.e3ef7421.css.map": "/MYPORTFOLIO-MAIN/static/css/main.e3ef7421.css.map",
+    "main.0f49ba1b.js.map": "/MYPORTFOLIO-MAIN/static/js/main.0f49ba1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.512ac504.css",
-    "static/js/main.0c8e908a.js"
+    "static/css/main.e3ef7421.css",
+    "static/js/main.0f49ba1b.js"
   ]
 }
