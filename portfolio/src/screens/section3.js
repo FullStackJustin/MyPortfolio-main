@@ -1,6 +1,6 @@
 import "../styles/section3.css"
 import React from "react";
-import { Footer } from "../pages/footer"
+// import { Footer } from "../pages/footer"
 import emailjs from '@emailjs/browser';
 
 export const Screen3 = () => {
@@ -35,7 +35,7 @@ export const Screen3 = () => {
     
     
     return(
-        <div id="contactPageContainer">
+        <section id="contactPageContainer">
             <div className="contactCard">
                     <header><h3>Contact Me</h3></header>
                 <form id="contactForm" ref={form} onSubmit={sendEmail}>
@@ -51,8 +51,8 @@ export const Screen3 = () => {
                     </main>
                     <button onClick={formCompletionValidation} type="submit">Send Message</button>
                 </form>
-            <Footer/>
+            {/* <Footer/> */}
             </div>
-        </div>
+        </section>
     )
 }

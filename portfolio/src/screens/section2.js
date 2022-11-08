@@ -12,7 +12,7 @@ export const Screen2 = () => {
     
 
     return (
-        <div className="fullPageContainer">
+        <section className="fullPageContainer">
             {/* <div className="header">
                 <span id="headerText">FULLSTACKJUSTIN</span>
             </div> */}
@@ -39,7 +39,9 @@ export const Screen2 = () => {
                     <form className="aboutMeForm">
                         <main>
                             <div className="aboutMainDiv">
-                                <p>All About Justin Taylor. Here is going to go a brief description of me, what I like to do, and how I got to be where I am I guess...</p>
+                                <h4>I am a fullstack web developer specializing in react</h4>
+                                <br/>
+                                <p></p>
                             </div>
                         </main>
                     </form>
@@ -55,6 +57,6 @@ export const Screen2 = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

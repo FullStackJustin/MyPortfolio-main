@@ -34,7 +34,7 @@ export function Screen1() {
     
 
     return (
-        <div className="fullpageContainer" id="fullpageContainer"> 
+        <section className="fullpageContainer" id="fullpageContainer"> 
         <div className="mainContentContainer" id="contentContainer">
             <h5>(Full-Stack Web Developer)</h5>
             <div className="leftContainer">
@@ -58,7 +58,7 @@ export function Screen1() {
             {/* Tropical trees font */}
             {/* <a href="/"><img src="https://see.fontimg.com/api/renderfont4/d9VDV/eyJyIjoiZnMiLCJoIjoxMDcsInciOjEwMDAsImZzIjoxMDcsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SlQ/palmsprings-personal-use-regular.png" alt="Logo fonts"/></a> */}
         </div>
-        </div>
+        </section>
     )
 }
 

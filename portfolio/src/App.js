@@ -14,8 +14,13 @@ function App() {
       setTimeout(() => {
         logo.style.display = "none";
         setLoading(false);
-      }, 2000)
-  }
+      }, 3000)
+  } 
+  setTimeout(() =>{
+    logo.classlist.remove("animate__flipInX");
+    logo.classlist.add("animate__bounceOut");
+  },1500)
+  
   return (
     !loading && (
       <Router basename="/">

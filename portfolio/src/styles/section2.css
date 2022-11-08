@@ -144,3 +144,6 @@
     src: local("Thin"),
     url(../fonts/Thin-DdE3.ttf) format("truetype")
  }
+.aboutMainDiv p {
+    padding: 15px;
+}
