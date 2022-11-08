@@ -70,7 +70,7 @@
     flex-direction: column;
     margin-top: 5%;
     width: 25%;
-    height: 65vh;
+    height: 95vh;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 10px 25px 11px rgba(143,143,143,0.85);
@@ -90,7 +90,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor:crosshair;
+    cursor:auto;
     border-radius:15px;
     font-family: SuperThin;
 }
@@ -145,5 +145,13 @@
     url(../fonts/Thin-DdE3.ttf) format("truetype")
  }
 .aboutMainDiv p {
-    padding: 15px;
+    /* font-family: superthin; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.workMainDiv p {
+    /* font-family: superthin; */
+    /* letter-spacing: 2px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
