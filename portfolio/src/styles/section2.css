@@ -38,7 +38,7 @@
     max-width: 100vw;
   }
 #leftCard{
-    z-index:101;
+    z-index:999;
     position:absolute;
     top:5%;
     left:5%;
@@ -46,7 +46,7 @@
     margin-right:25px;
 }
 #middleCard{
-    z-index:101;
+    z-index:999;
     position:absolute;
     top:5%;
     left:35%;
@@ -54,7 +54,7 @@
     margin-right:25px;
 }
 #rightCard{
-    z-index:101;
+    z-index:999;
     position:absolute;
     top:5%;
     left: 65%;
