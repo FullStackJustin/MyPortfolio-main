@@ -29,7 +29,6 @@ function App() {
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/MYPORTFOLIO-MAIN" element={<Home />}></Route>
           <Route exact path="/projects" element={<Projects />}></Route>
-          <Route exact path="/MYPORTFOLIO-MAIN/projects" element={<Projects />}></Route>
           {/* <Route exact path="/" element={</>}></Route> */}
         </Routes>
       </Router>)
