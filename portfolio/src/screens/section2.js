@@ -44,27 +44,33 @@ export const Screen2 = () => {
                     <form className="projectsForm">
                         <main>
                             <div className="dropdown">
-                                <button className="dropbtn" disabled>Calculator</button>
+                                <a className="dropbtn" href="https://github.com/FullStackJustin/Cool-Calculator" target="_blank" rel="noreferrer">Calculator</a>
                                 <div className="dropdown-content">
                                     <p>Fun Calculator made with React, HTML, CSS and javascript.</p>
                                 </div>
                             </div>
                             <div className="dropdown">
-                                <button className="dropbtn" disabled>Netflix Clone</button>
+                                <a className="dropbtn" href="https://github.com/FullStackJustin/Netflix-Browse-Titles-frontend-clone" target="_blank" rel="noreferrer">Netflix Clone</a>
                                 <div className="dropdown-content">
-                                    <p>Frontend project built with React, </p>
+                                    <p>Frontend replica of Netflix's browse titles page. This project fetches and renders REST api data and was built with React, html, css, and javascript </p>
                                 </div>
                             </div>
                             <div className="dropdown">
-                                <button className="dropbtn" disabled>Todo list w/ fetch</button>
+                                <a className="dropbtn" href="https://github.com/FullStackJustin/Free-online-games-website" target="_blank" rel="noreferrer">F.O.G collection site</a>
                                 <div className="dropdown-content">
-                                    <a href="">Cool frontend design with get and delete method to update todo list</a>
+                                    <p>Free Online Game website that renders game info from fetched api data built with React, html, css, and javascript </p>
                                 </div>
                             </div>
                             <div className="dropdown">
-                                <button className="dropbtn" disabled>Auth System Template</button>
+                                <a className="dropbtn" href="https://github.com/FullStackJustin/todo-w-fetch-and-react" target="_blank" rel="noreferrer">Todo list w/ fetch</a>
                                 <div className="dropdown-content">
-                                    <a href="https://github.com/FullStackJustin/Auth-system-w-firebase-template" target="_blank">Cool frontend design with get and delete method to update todo list</a>
+                                    <p >Todolist with a Cool frontend design that uses get and delete method to update todo list</p>
+                                </div>
+                            </div>
+                            <div className="dropdown">
+                                <a className="dropbtn" href="https://github.com/FullStackJustin/Auth-system-w-firebase-template" target="_blank" rel="noreferrer">Auth System Template</a>
+                                <div className="dropdown-content">
+                                    <p>Complete authentication system with customizable homepage, login, signup, and account page built with firebase as backend, tailwind for styling, react, and javascript</p>
                                 </div>
                             </div>
 
@@ -95,12 +101,16 @@ export const Screen2 = () => {
                     <header style={headerLogoStyle}>
                         <img src={workAndEduLogo} style={logoSizing} alt="about logo"></img>
                     </header>
-                    <header><h1>Work and EDU</h1></header>
+                    <header><h1>Experience and news</h1></header>
                     <form className="workForm">
                         <main>
                             <div className="workMainDiv">
                                 <div className="columnText">
-                                    <p>Transitioning from manual labor roles, I fell in love with creating webpages in conclusion of the year 2021 and have since completed an online bootcamp and received several online-certificates in attempt to further progress professional intellect. </p>
+                                    <p>Transitioning from working manual labor roles since graduating high school in 2019, I fell in love with creating webpages in conclusion of the year 2021 and have since completed an online bootcamp and received several online-certificates in attempt to further progress professional intellect. </p>
+                                    <br/>
+                                    <p>As of this writing, I am actively building projects to learn new tech and grow technical skillset</p>
+                                    <br/>
+                                    <p>I am proud to inform of my upcoming deployments including a web platform intended to connect travlers looking for a stlist or hairdresser with local experts on all hair needs. Coming soon.</p>
                                 </div>
                             </div>
                         </main>

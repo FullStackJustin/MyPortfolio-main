@@ -38,7 +38,7 @@
     max-width: 100vw;
   }
 #leftCard{
-    z-index:999;
+    z-index:98;
     position:absolute;
     top:5%;
     left:5%;
@@ -47,7 +47,7 @@
 }
 #middleCard{
     font-weight: 1rem;
-    z-index:999;
+    z-index:97;
     position:absolute;
     top:5%;
     left:35%;
@@ -55,7 +55,7 @@
     margin-right:25px;
 }
 #rightCard{
-    z-index:999;
+    z-index:98;
     position:absolute;
     top:5%;
     left: 65%;
@@ -86,6 +86,9 @@
 /* Dropdown Button */
 .dropbtn {
     overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
     background-color: black;
     color: rgb(65, 84, 157);
     padding: 16px;
@@ -100,7 +103,10 @@
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -108,9 +114,11 @@
     font-family:Thin;
     display: none;
     position: absolute;
+    left:70%;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
 }
 
 /* Links inside the dropdown */
