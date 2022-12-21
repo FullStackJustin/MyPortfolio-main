@@ -90,7 +90,7 @@ export const Screen2 = () => {
                             <div className="aboutMainDiv">
                                 <div className="columnText">
                                     <h3>Hello! My name is Justin Taylor and I am a fullstack web developer mainly specializing in react</h3>
-                                    <p>Tech I have worked with : Javscript, HTML, CSS, React, Node, Express, Firebase, Tailwind, Bootstrap, Jest, Python, sqlAlchemy, Redux, Flask, Postman, fullpage.js, next.js, and email.js   </p>
+                                    <p><strong>Tech I have worked with </strong>: Javscript, HTML, CSS, React, Node, Express, Firebase, Tailwind, Bootstrap, Jest, Python, sqlAlchemy, Redux, Flask, Postman, fullpage.js, next.js, and email.js   </p>
                                     <h4>Fun Facts about me : </h4>
                                     <p>I especially like working with front end</p>
                                     <p>I have been audio engineering since 2013, </p>
@@ -107,13 +107,13 @@ export const Screen2 = () => {
                     <header style={headerLogoStyle}>
                         <img src={workAndEduLogo} style={logoSizing} alt="about logo"></img>
                     </header>
-                    <header><h1>Experience and news</h1></header>
+                    <header><h1>Experience</h1></header>
                     <form className="workForm">
                         <main>
                             <div className="workMainDiv">
                                 <div className="columnText">
                                     <p>Transitioning from working manual labor roles since graduating high school in 2019, I fell in love with creating webpages in conclusion of the year 2021 and have since completed an online bootcamp and received several online-certificates in attempt to further progress professional intellect. </p>
-                                    <p>As of this writing, I am actively building projects to learn new tech and grow technical skillset</p>
+                                    <p>As of this writing, I am actively building projects to learn new tech and grow technical skillset.</p>
                                     <p>I am proud to inform of my upcoming deployments including a web platform intended to connect travlers looking for a stlist or hairdresser with local experts on all hair needs. Coming soon.</p>
                                 </div>
                             </div>
