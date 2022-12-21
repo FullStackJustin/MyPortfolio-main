@@ -90,7 +90,7 @@ export const Screen2 = () => {
                             <div className="aboutMainDiv">
                                 <div className="columnText">
                                     <h3>Hello! My name is Justin Taylor and I am a fullstack web developer mainly specializing in react</h3>
-                                    <p>Tech I have worked with : Javscript, HTML, CSS, React, Node, Express, Firebase, Tailwind, Bootstrap, Jest, Python, sqlAlchemy, mongoDB, Postman, fullpage.js, next.js, and email.js   </p>
+                                    <p>Tech I have worked with : Javscript, HTML, CSS, React, Node, Express, Firebase, Tailwind, Bootstrap, Jest, Python, sqlAlchemy, Redux, Flask, Postman, fullpage.js, next.js, and email.js   </p>
                                     <h4>Fun Facts about me : </h4>
                                     <p>I especially like working with front end</p>
                                     <p>I have been audio engineering since 2013, </p>
