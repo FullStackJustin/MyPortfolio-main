@@ -113,6 +113,7 @@ export const Screen2 = () => {
                             <div className="workMainDiv">
                                 <div className="columnText">
                                     <p>I am actively searching for my first professional role in either a frontend or fullstack position.</p>
+                                    <br/>
                                     <p>My previous work experience includes customer service, d2d sales, warehouse associate roles, and delivery operations. Feel free to view my LinkedIn for full scope of my work history.</p>
                                 </div>
                             </div>
