@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MYPORTFOLIO-MAIN/static/css/main.0aac681d.css",
-    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.de4842e5.js",
+    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.e3954bc8.js",
     "static/media/RosmatikaRegular-BWA45.ttf": "/MYPORTFOLIO-MAIN/static/media/RosmatikaRegular-BWA45.f7b5935032bdf59f2734.ttf",
     "static/media/Kbluckyclover-djAR.ttf": "/MYPORTFOLIO-MAIN/static/media/Kbluckyclover-djAR.0de8decb9c070ead1d63.ttf",
     "static/media/lightbulbLogo.png": "/MYPORTFOLIO-MAIN/static/media/lightbulbLogo.9926afda780608f91457.png",
@@ -12,10 +12,10 @@
     "static/media/HouseSignatureSans-Yz0Vj.ttf": "/MYPORTFOLIO-MAIN/static/media/HouseSignatureSans-Yz0Vj.bcf62b5c4a13008af020.ttf",
     "index.html": "/MYPORTFOLIO-MAIN/index.html",
     "main.0aac681d.css.map": "/MYPORTFOLIO-MAIN/static/css/main.0aac681d.css.map",
-    "main.de4842e5.js.map": "/MYPORTFOLIO-MAIN/static/js/main.de4842e5.js.map"
+    "main.e3954bc8.js.map": "/MYPORTFOLIO-MAIN/static/js/main.e3954bc8.js.map"
   },
   "entrypoints": [
     "static/css/main.0aac681d.css",
-    "static/js/main.de4842e5.js"
+    "static/js/main.e3954bc8.js"
   ]
 }
