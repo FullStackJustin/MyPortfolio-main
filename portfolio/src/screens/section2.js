@@ -56,7 +56,7 @@ export const Screen2 = () => {
                                 </div>
                             </div>
                             <div className="dropdown">
-                                <a className="dropbtn" href="https://github.com/FullStackJustin/Free-online-games-website" target="_blank" rel="noreferrer">F.O.G collection site</a>
+                                <a className="dropbtn" href="https://fullstackjustin.github.io/Free-online-games-website/" target="_blank" rel="noreferrer">F.O.G collection site</a>
                                 <div className="dropdown-content">
                                     <p>Free Online Game website that renders game info from fetched api data built with React, html, css, and javascript </p>
                                 </div>
