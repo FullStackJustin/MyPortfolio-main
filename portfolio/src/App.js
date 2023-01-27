@@ -26,6 +26,7 @@ function App() {
       <Router basename="/">
         <Navbar/>
         <Routes>
+          <Route exact path="/portfolio" element={<Home />}></Route>
           <Route exact path="/" element={<Home />}></Route>
           {/* <Route exact path="/projects" element={<Projects />}></Route> */}
         </Routes>
