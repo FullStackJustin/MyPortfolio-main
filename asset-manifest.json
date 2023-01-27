@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/MYPORTFOLIO-MAIN/static/css/main.0aac681d.css",
-    "main.js": "/MYPORTFOLIO-MAIN/static/js/main.044a14d5.js",
-    "static/media/RosmatikaRegular-BWA45.ttf": "/MYPORTFOLIO-MAIN/static/media/RosmatikaRegular-BWA45.f7b5935032bdf59f2734.ttf",
-    "static/media/Kbluckyclover-djAR.ttf": "/MYPORTFOLIO-MAIN/static/media/Kbluckyclover-djAR.0de8decb9c070ead1d63.ttf",
-    "static/media/lightbulbLogo.png": "/MYPORTFOLIO-MAIN/static/media/lightbulbLogo.9926afda780608f91457.png",
-    "static/media/Thin-DdE3.ttf": "/MYPORTFOLIO-MAIN/static/media/Thin-DdE3.460fcb23e127f400e51f.ttf",
-    "static/media/Avenuex-75oB.otf": "/MYPORTFOLIO-MAIN/static/media/Avenuex-75oB.46179a851de4ad9ce3fc.otf",
-    "static/media/workAndEduLogo.png": "/MYPORTFOLIO-MAIN/static/media/workAndEduLogo.8da99097baa49b7710ee.png",
-    "static/media/SuperThin-eZVDe.ttf": "/MYPORTFOLIO-MAIN/static/media/SuperThin-eZVDe.656233b16696c4c2cf13.ttf",
-    "static/media/HouseSignatureSans-Yz0Vj.ttf": "/MYPORTFOLIO-MAIN/static/media/HouseSignatureSans-Yz0Vj.bcf62b5c4a13008af020.ttf",
-    "index.html": "/MYPORTFOLIO-MAIN/index.html",
-    "main.0aac681d.css.map": "/MYPORTFOLIO-MAIN/static/css/main.0aac681d.css.map",
-    "main.044a14d5.js.map": "/MYPORTFOLIO-MAIN/static/js/main.044a14d5.js.map"
+    "main.css": "/static/css/main.b6ab7bc7.css",
+    "main.js": "/static/js/main.d97d4536.js",
+    "static/media/RosmatikaRegular-BWA45.ttf": "/static/media/RosmatikaRegular-BWA45.f7b5935032bdf59f2734.ttf",
+    "static/media/Kbluckyclover-djAR.ttf": "/static/media/Kbluckyclover-djAR.0de8decb9c070ead1d63.ttf",
+    "static/media/lightbulbLogo.png": "/static/media/lightbulbLogo.9926afda780608f91457.png",
+    "static/media/Thin-DdE3.ttf": "/static/media/Thin-DdE3.460fcb23e127f400e51f.ttf",
+    "static/media/Avenuex-75oB.otf": "/static/media/Avenuex-75oB.46179a851de4ad9ce3fc.otf",
+    "static/media/workAndEduLogo.png": "/static/media/workAndEduLogo.8da99097baa49b7710ee.png",
+    "static/media/SuperThin-eZVDe.ttf": "/static/media/SuperThin-eZVDe.656233b16696c4c2cf13.ttf",
+    "static/media/HouseSignatureSans-Yz0Vj.ttf": "/static/media/HouseSignatureSans-Yz0Vj.bcf62b5c4a13008af020.ttf",
+    "index.html": "/index.html",
+    "main.b6ab7bc7.css.map": "/static/css/main.b6ab7bc7.css.map",
+    "main.d97d4536.js.map": "/static/js/main.d97d4536.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aac681d.css",
-    "static/js/main.044a14d5.js"
+    "static/css/main.b6ab7bc7.css",
+    "static/js/main.d97d4536.js"
   ]
 }
